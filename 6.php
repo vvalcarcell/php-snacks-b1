@@ -47,7 +47,7 @@
         ?>
     </div>
 
-    <div class="grey">
+    <div style= "background-color: lightgrey;">
         <h1>Pm</h1>
         <?php 
             $numPm = count($db["pm"]);

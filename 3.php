@@ -41,9 +41,10 @@ $posts = [
 ];
 
 
-for($i=0; $i < count($posts); $i++) {
+$key = array_keys($posts);
 
-    $key = array_keys($posts);
+
+for($i=0; $i < count($posts); $i++) {
 
     echo "<div>{$key[$i]}</div>";
     
